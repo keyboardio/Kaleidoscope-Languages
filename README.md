@@ -29,5 +29,4 @@ symbols they define, and where to find an example layout using them.
 
 ## Supported languages & layouts
 
-No language or layout is supported yet, we're just setting up the framework for
-now.
+- German QWERTZ: `kaleidoscope/lang/de-qwertz.h`
