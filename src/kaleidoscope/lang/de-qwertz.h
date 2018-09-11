@@ -5,9 +5,16 @@
 
 /* German Umlaute */
 #define Key_de_SZ Key_Minus
+#define Key_de_SS Key_de_SZ
 #define Key_de_AE Key_Quote
+#define Key_de_AUml Key_de_AE
+#define Key_de_ADiaresis Key_de_AE
 #define Key_de_UE Key_LeftBracket
+#define Key_de_UUml Key_de_UE
+#define Key_de_UDiaresis Key_de_UE
 #define Key_de_OE Key_Semicolon
+#define Key_de_OUml Key_de_OE
+#define Key_de_ODiaresis Key_de_OE
 
 /* These are deviating from the us layout */
 #define Key_de_Circumflex Key_Backtick /* ^ and ° */
@@ -119,14 +126,26 @@
 #define Key_de_F12 Key_F12
 
 #define Key_de_PrintScreen Key_PrintScreen
+#define Key_de_Drucken Key_de_PrintScreen
+#define Key_de_Druck Key_de_PrintScreen
 #define Key_de_ScrollLock Key_ScrollLock
+#define Key_de_Rollen Key_de_ScrollLock
 #define Key_de_Pause Key_Pause
 #define Key_de_Insert Key_Insert
+#define Key_de_Einfuegen Key_de_Insert
+#define Key_de_Einfg Key_de_Insert
 #define Key_de_Home Key_Home
+#define Key_de_Position1 Key_de_Home
+#define Key_de_Pos1 Key_de_Home
 #define Key_de_PageUp Key_PageUp
+#define Key_de_BildAuf Key_de_PageUp
 #define Key_de_Delete Key_Delete
+#define Key_de_Entfernen Key_de_Delete
+#define Key_de_Entf Key_de_Delete
 #define Key_de_End Key_End
+#define Key_de_Ende Key_de_End
 #define Key_de_PageDown Key_PageDown
+#define Key_de_BildAb Key_de_PageDown
 #define Key_de_RightArrow Key_RightArrow
 #define Key_de_LeftArrow Key_LeftArrow
 #define Key_de_DownArrow Key_DownArrow
@@ -274,10 +293,14 @@
 #define Key_de_KeypadHexadecimal Key_KeypadHexadecimal
 
 #define Key_de_LeftControl Key_LeftControl
+#define Key_de_SteuerungLinks Key_de_LeftControl
+#define Key_de_StrgL Key_de_LeftControl
 #define Key_de_LeftShift Key_LeftShift
 #define Key_de_LeftAlt Key_LeftAlt
 #define Key_de_LeftGui Key_LeftGui
 #define Key_de_RightControl Key_RightControl
+#define Key_de_SteuerungRechts Key_de_RightControl
+#define Key_de_StrgR Key_de_RightControl
 #define Key_de_RightShift Key_RightShift
 #define Key_de_RightAlt Key_RightAlt
 #define Key_de_RightGui Key_RightGui
